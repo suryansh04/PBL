@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WealthBridge - Financial Planning for Generations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <a href="#" class="logo">WealthBridge</a>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Challenges</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Investment Plans</a></li>
+              <li><a href="#">Calculator</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--Hero Container-->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1 class="hero-title">
+              Bridge The Financial Gap Between Generations
+            </h1>
+            <p class="hero-subtitle">
+              Smart financial planning for the sandwich generation. Balance your
+              present needs while securing your family's future.
+            </p>
+            <div class="buttons">
+              <a href="#" class="btn btn-primary">Get Started</a>
+              <a href="#" class="btn btn-secondary">Learn More</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <div class="card-item item-1">
+              <div class="card-icon icon-primary">
+                <span>$</span>
+              </div>
+              <div class="card-text">
+                <h3>SIP Investment</h3>
+                <p>Systematic Investment Plans for steady growth</p>
+              </div>
+            </div>
+            <div class="card-item item-2">
+              <div class="card-icon icon-secondary">
+                <span>📊</span>
+              </div>
+              <div class="card-text">
+                <h3>SWP Benefits</h3>
+                <p>Systematic Withdrawal Plans for regular income</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Sandwich Generaion Container-->
+    <section class="sandwich-generation-section">
+      <div class="sandwich-generation-container">
+        <div class="sandwich-generation-header">
+          <h2 class="sandwich-generation-title">
+            Understanding the Sandwich Generation
+          </h2>
+          <p class="sandwich-generation-description">
+            Navigating the unique challenges of caring for both children and
+            aging parents while managing personal financial goals.
+          </p>
+        </div>
+
+        <div class="sandwich-cards-wrapper">
+          <div class="sandwich-card sandwich-card-responsibility">
+            <div class="sandwich-icon-container sandwich-icon-responsibility">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="sandwich-card-title">Dual Responsibilities</h3>
+            <p class="sandwich-card-description">
+              Managing the needs of growing children while providing support to
+              aging parents creates unique financial challenges.
+            </p>
+          </div>
+
+          <div class="sandwich-card sandwich-card-financial">
+            <div class="sandwich-icon-container sandwich-icon-financial">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="sandwich-card-title">Financial Planning</h3>
+            <p class="sandwich-card-description">
+              Strategic investment approaches through SIPs and SWPs to create
+              sustainable financial solutions.
+            </p>
+          </div>
+
+          <div class="sandwich-card sandwich-card-protection">
+            <div class="sandwich-icon-container sandwich-icon-protection">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="sandwich-card-title">Protection & Security</h3>
+            <p class="sandwich-card-description">
+              Comprehensive solutions to protect your family's future while
+              maintaining current lifestyle needs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Challenges Container-->
+    <!--Challenges Container-->
+    <section class="challenges-section">
+      <div class="challenges-container">
+        <div class="challenges-header">
+          <h2 class="challenges-title">Common Challenges</h2>
+          <p class="challenges-description">
+            Understanding the key financial pressures faced by the sandwich
+            generation
+          </p>
+        </div>
+
+        <div class="challenges-cards-wrapper">
+          <div class="challenge-card">
+            <div class="challenge-icon-container challenge-icon-healthcare">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="challenge-card-title">Healthcare Costs</h3>
+            <p class="challenge-card-description">
+              Managing medical expenses for aging parents while maintaining
+              health coverage for children
+            </p>
+            <div class="challenge-stat">
+              <p class="challenge-percentage">32%</p>
+              <p class="challenge-stat-text">of monthly expenses</p>
+            </div>
+          </div>
+
+          <div class="challenge-card">
+            <div class="challenge-icon-container challenge-icon-education">
+              <i class="fas fa-plus"></i>
+            </div>
+            <h3 class="challenge-card-title">Education Funding</h3>
+            <p class="challenge-card-description">
+              Rising education costs and planning for children's future academic
+              needs
+            </p>
+            <div class="challenge-stat">
+              <p class="challenge-percentage">28%</p>
+              <p class="challenge-stat-text">of savings allocated</p>
+            </div>
+          </div>
+
+          <div class="challenge-card">
+            <div class="challenge-icon-container challenge-icon-retirement">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h3 class="challenge-card-title">Retirement Planning</h3>
+            <p class="challenge-card-description">
+              Balancing personal retirement savings with current family
+              obligations
+            </p>
+            <div class="challenge-stat">
+              <p class="challenge-percentage">40%</p>
+              <p class="challenge-stat-text">gap in retirement savings</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="financial-stress-section">
+          <h3 class="financial-stress-title">Financial Stress Indicators</h3>
+
+          <div class="financial-stress-container">
+            <div class="financial-stress-indicators">
+              <div class="stress-indicator">
+                <div class="stress-indicator-label">
+                  <p>Monthly Savings</p>
+                  <p class="stress-percentage negative">-15%</p>
+                </div>
+                <div class="progress-bar">
+                  <div
+                    class="progress-fill progress-negative"
+                    style="width: 45%"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="stress-indicator">
+                <div class="stress-indicator-label">
+                  <p>Debt Management</p>
+                  <p class="stress-percentage positive">+22%</p>
+                </div>
+                <div class="progress-bar">
+                  <div
+                    class="progress-fill progress-positive"
+                    style="width: 72%"
+                  ></div>
+                </div>
+              </div>
+
+              <div class="stress-indicator">
+                <div class="stress-indicator-label">
+                  <p>Emergency Fund</p>
+                  <p class="stress-percentage positive">+8%</p>
+                </div>
+                <div class="progress-bar">
+                  <div
+                    class="progress-fill progress-neutral"
+                    style="width: 58%"
+                  ></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="financial-help-box">
+              <h3 class="help-title">Need Immediate Help?</h3>
+              <p class="help-description">
+                Our financial experts can help you create a balanced plan to
+                address these challenges.
+              </p>
+              <a href="#" class="btn btn-consultation"
+                >Schedule a Consultation</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Financial Solutions Container-->
+    <section class="financial-solutions-section">
+      <div class="financial-solutions-container">
+        <div class="financial-solutions-header">
+          <h2 class="financial-solutions-title">Financial Solutions</h2>
+          <p class="financial-solutions-description">
+            Strategic investment approaches to balance current needs and future
+            security
+          </p>
+        </div>
+
+        <div class="financial-solutions-cards-wrapper">
+          <div class="financial-solution-card">
+            <div class="solution-icon-container solution-icon-sip">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <h3 class="solution-card-title">
+              Systematic Investment Plans (SIPs)
+            </h3>
+            <ul class="solution-features">
+              <li>
+                <i class="fas fa-check"></i> Regular, disciplined investing with
+                flexible amounts
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Benefits from market averaging over
+                time
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Long-term wealth creation potential
+              </li>
+            </ul>
+            <div class="solution-metric">
+              <p class="solution-metric-label">Average Returns</p>
+              <div class="solution-progress-bar">
+                <div
+                  class="solution-progress-fill solution-progress-green"
+                  style="width: 75%"
+                ></div>
+              </div>
+              <p class="solution-metric-value">12-15% p.a.</p>
+            </div>
+          </div>
+
+          <div class="financial-solution-card">
+            <div class="solution-icon-container solution-icon-swp">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <h3 class="solution-card-title">
+              Systematic Withdrawal Plans (SWPs)
+            </h3>
+            <ul class="solution-features">
+              <li>
+                <i class="fas fa-check"></i> Regular income stream for daily
+                expenses
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Flexibility to adjust withdrawal
+                amounts
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Tax-efficient withdrawal strategy
+              </li>
+            </ul>
+            <div class="solution-metric">
+              <p class="solution-metric-label">Monthly Income</p>
+              <div class="solution-progress-bar">
+                <div
+                  class="solution-progress-fill solution-progress-blue"
+                  style="width: 65%"
+                ></div>
+              </div>
+              <p class="solution-metric-value">₹25,000 - ₹50,000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="financial-achievements">
+          <div class="achievement-item">
+            <p class="achievement-value">85%</p>
+            <p class="achievement-label">Financial Security Achievement</p>
+          </div>
+          <div class="achievement-item">
+            <p class="achievement-value">₹50L+</p>
+            <p class="achievement-label">Average Wealth Created</p>
+          </div>
+          <div class="achievement-item">
+            <p class="achievement-value">10K+</p>
+            <p class="achievement-label">Families Supported</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Investment Plans Container -->
+    <section class="investment-plans-section">
+      <div class="investment-plans-container">
+        <div class="investment-plans-header">
+          <h2 class="investment-plans-title">Investment Plans</h2>
+          <p class="investment-plans-description">
+            Customized investment solutions to meet your multi-generational
+            responsibilities
+          </p>
+        </div>
+
+        <div class="investment-plans-cards-wrapper">
+          <!-- Starter Plan Card -->
+          <div class="plan-card">
+            <h3 class="plan-title">Starter Plan</h3>
+            <p class="plan-price">₹5,000</p>
+            <p class="plan-billing">Monthly SIP</p>
+
+            <ul class="plan-features">
+              <li>
+                <i class="fas fa-check"></i> Basic Portfolio Diversification
+              </li>
+              <li><i class="fas fa-check"></i> Quarterly Portfolio Review</li>
+              <li><i class="fas fa-check"></i> Email Support</li>
+            </ul>
+
+            <a href="#" class="btn btn-plan">Get Started</a>
+          </div>
+
+          <!-- Growth Plan Card (Popular) -->
+          <div class="plan-card plan-popular">
+            <div class="popular-badge">Most Popular</div>
+            <h3 class="plan-title">Growth Plan</h3>
+            <p class="plan-price">₹15,000</p>
+            <p class="plan-billing">Monthly SIP</p>
+
+            <ul class="plan-features">
+              <li>
+                <i class="fas fa-check"></i> Advanced Portfolio Diversification
+              </li>
+              <li><i class="fas fa-check"></i> Monthly Portfolio Review</li>
+              <li><i class="fas fa-check"></i> Priority Phone Support</li>
+              <li><i class="fas fa-check"></i> Tax Planning</li>
+            </ul>
+
+            <a href="#" class="btn btn-plan btn-plan-popular">Get Started</a>
+          </div>
+
+          <!-- Premium Plan Card -->
+          <div class="plan-card">
+            <h3 class="plan-title">Premium Plan</h3>
+            <p class="plan-price">₹25,000+</p>
+            <p class="plan-billing">Monthly SIP</p>
+
+            <ul class="plan-features">
+              <li>
+                <i class="fas fa-check"></i> Complete Portfolio Management
+              </li>
+              <li><i class="fas fa-check"></i> Weekly Portfolio Review</li>
+              <li><i class="fas fa-check"></i> 24/7 Dedicated Support</li>
+              <li><i class="fas fa-check"></i> Estate Planning</li>
+            </ul>
+
+            <a href="#" class="btn btn-plan">Get Started</a>
+          </div>
+        </div>
+
+        <!-- Consultation Box -->
+        <div class="consultation-box">
+          <h3 class="consultation-title">
+            Not sure which plan is right for you?
+          </h3>
+          <p class="consultation-description">
+            Schedule a free consultation with our financial experts
+          </p>
+          <a href="#" class="btn btn-consultation">Book Consultation</a>
+        </div>
+      </div>
+    </section>
+    <!-- Financial Calculator Section -->
+    <section class="calculator-section">
+      <div class="calculator-container">
+        <div class="calculator-header">
+          <h2 class="calculator-title">Financial Planning Calculator</h2>
+          <p class="calculator-description">
+            Plan your investments based on your current situation and future
+            goals
+          </p>
+        </div>
+
+        <div class="calculator-content">
+          <div class="calculator-form">
+            <div class="form-group">
+              <label for="monthly-income">Monthly Income</label>
+              <div class="input-wrapper">
+                <span class="currency-symbol">₹</span>
+                <input
+                  type="number"
+                  id="monthly-income"
+                  placeholder="Enter your monthly income"
+                  class="calculator-input"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="monthly-expenses">Monthly Expenses</label>
+              <div class="input-wrapper">
+                <span class="currency-symbol">₹</span>
+                <input
+                  type="number"
+                  id="monthly-expenses"
+                  placeholder="Enter your monthly expenses"
+                  class="calculator-input"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="education-fund"
+                >Children's Education Fund (Required)</label
+              >
+              <div class="input-wrapper">
+                <span class="currency-symbol">₹</span>
+                <input
+                  type="number"
+                  id="education-fund"
+                  placeholder="Target education fund"
+                  class="calculator-input"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="healthcare-fund"
+                >Parents' Healthcare Fund (Monthly)</label
+              >
+              <div class="input-wrapper">
+                <span class="currency-symbol">₹</span>
+                <input
+                  type="number"
+                  id="healthcare-fund"
+                  placeholder="Monthly healthcare expenses"
+                  class="calculator-input"
+                />
+              </div>
+            </div>
+
+            <div class="form-group range-group">
+              <label for="investment-horizon">Investment Horizon (Years)</label>
+              <input
+                type="range"
+                id="investment-horizon"
+                min="5"
+                max="30"
+                value="15"
+                class="slider"
+              />
+              <div class="range-labels">
+                <span>5 years</span>
+                <span id="horizon-value">15 years</span>
+                <span>30 years</span>
+              </div>
+            </div>
+
+            <button id="calculate-button" class="btn btn-calculator">
+              Calculate Investment Plan
+            </button>
+          </div>
+
+          <div class="calculator-results" id="calculator-results">
+            <div class="results-icon">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <p class="results-message">
+              Fill in your details to get personalized investment
+              recommendations
+            </p>
+
+            <div
+              class="results-content"
+              id="results-content"
+              style="display: none"
+            >
+              <div class="result-item">
+                <h4>Monthly SIP Recommended:</h4>
+                <p id="recommended-sip">₹0</p>
+              </div>
+
+              <div class="result-item">
+                <h4>Recommended Plan:</h4>
+                <p id="recommended-plan">-</p>
+              </div>
+
+              <div class="result-item">
+                <h4>Education Fund SIP:</h4>
+                <p id="education-sip">₹0</p>
+              </div>
+
+              <div class="result-item">
+                <h4>Healthcare SWP Available:</h4>
+                <p id="healthcare-swp">₹0</p>
+              </div>
+
+              <div class="result-item">
+                <h4>
+                  Expected Corpus in <span id="years-display">15</span> years:
+                </h4>
+                <p id="expected-corpus">₹0</p>
+              </div>
+
+              <a href="#" class="btn btn-consultation"
+                >Book Consultation for Details</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+      <div class="container">
+        <div class="contact-form-header">
+          <h2>Get Personalized Financial Guidance</h2>
+          <p>Let us help you navigate your financial responsibilities</p>
+        </div>
+
+        <div class="contact-form-content">
+          <div class="contact-form-wrapper">
+            <form class="contact-form">
+              <div class="form-group-calc">
+                <label for="fullName">Full Name</label>
+                <input
+                  type="text"
+                  id="fullName"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="form-group-calc">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="form-group-calc">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+
+              <div class="form-group-calc">
+                <label for="message">Your Message</label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  placeholder="Tell us about your financial goals"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-consultation">
+                Schedule Consultation
+              </button>
+            </form>
+          </div>
+
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <p>support@financialplanning.com</p>
+            </div>
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>123 Financial District, Suite 100<br />New York, NY 10001</p>
+            </div>
+
+            <div class="business-hours">
+              <h3>Business Hours</h3>
+              <div class="hours-item">
+                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                <p>Saturday: 10:00 AM - 2:00 PM</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a href="#" class="footer-logo">WealthBridge</a>
+            <p class="footer-tagline">
+              Empowering the sandwich generation with smart financial solutions
+              through SIPs & SWPs.
+            </p>
+            <div class="social-icons">
+              <a href="#" class="social-icon"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-icon"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h3 class="footer-heading">Quick Links</h3>
+            <ul class="footer-menu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Challenges</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Investment Plans</a></li>
+              <li><a href="#">Calculator</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-links">
+            <h3 class="footer-heading">Services</h3>
+            <ul class="footer-menu">
+              <li><a href="#">SIP Planning</a></li>
+              <li><a href="#">SWP Management</a></li>
+              <li><a href="#">Retirement Planning</a></li>
+              <li><a href="#">Child Education</a></li>
+              <li><a href="#">Healthcare Planning</a></li>
+              <li><a href="#">Tax Management</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-contact">
+            <h3 class="footer-heading">Contact Info</h3>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>123 Financial District, Suite 100<br />New York, NY 10001</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <p>+1 (555) 123-4567</p>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <p>support@wealthbridge.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">© 2025 WealthBridge. All rights reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
