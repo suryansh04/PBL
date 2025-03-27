@@ -180,7 +180,7 @@ nav a:hover::after {
   transform: translateX(30px);
 }
 
-.hero-card::before {
+/* .hero-card::before {
   content: "";
   position: absolute;
   top: 0;
@@ -190,7 +190,7 @@ nav a:hover::after {
   background: linear-gradient(90deg, #32cd32, #4169e1, #32cd32);
   background-size: 200% 100%;
   animation: gradientBorder 3s linear infinite;
-}
+} */
 
 @keyframes gradientBorder {
   0% {
